@@ -11,3 +11,4 @@ Instagram interface clone made with React Native ❤️
 
 ## Preview
 
+![Preview](preview.gif)
