@@ -10,6 +10,7 @@ export default createAppContainer(
   createStackNavigator({
     Feed,
   }, {
+    headerLayoutPreset: 'center',
     defaultNavigationOptions: {
       headerTitle: <Image source={logo} />,
       headerStyle: {
