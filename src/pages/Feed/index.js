@@ -27,7 +27,7 @@ export default function Feed() {
     const data = await response.json();
 
     setLoading(false);
-    setTotal(Math.floor(totalItems / 4));
+    setTotal(Math.ceil(totalItems / 4));
     setPage(pageNumber + 1);
 
     setFeed(shouldRefresh ? data : [...feed, ...data]);
